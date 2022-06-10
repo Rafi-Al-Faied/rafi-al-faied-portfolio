@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+section{
+    margin-left:40px;
+    width: 100%;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container{
+    width: 50%;
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0px 0px 2px;
+    background-color: white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: rgb(198, 150, 216);
+}
+.form-group{
+    width: 100%;
+    margin-top: 10px;
+    font-size: 16px;
+}
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid black;
+    background-color: aliceblue;
+}
+
+textarea{
+    resize: vertical;
+}
+
+button[type="submit"]{
+    width:100%;
+    border: none;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 8px;
+    text-align: center;
+    color: rgb(117, 29, 108);
+    cursor: pointer;
+    margin-top : 10px;
+    transition: .3s ease background-color ;
+}
+button[type="submit"] :hover{
+
+    background-color:blue;
+} 
+#status{
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  padding: 10px;
+  margin:0 auto ;  
+  border-radius: 8px;
+} 
+
+#status.success{
+    background-color: rgb(201, 226, 163);
+    animation: status 4s ease forwards;
+}
+
+#status.error{
+    background-color: rgb(242, 143, 143);
+color: white;
+animation: status 4s ease forwards;}
+
+@keyframes status{
+ 0%{   opacity: 1;
+pointer-vents: all;
+}
+ 0%{   opacity: 1;
+pointer-events: all;}
+
+ 0%{   opacity: 1;
+pointer-events: all;}
+ }
+.my-contact{
+    font-size: 20px;
+    margin-top: 20px;
+}
+ 
+.my-contact h4{
+   margin-bottom: 20px;
+   padding-top: 20px;
+   text-align: center;
+   /* margin-left: -360px; */
+   text-decoration: underline purple;
+}
+ 
+.my-contact h6{
+   margin-bottom: 20px;
+}
+ .my-residence{
+    margin-bottom: 20px;
+    margin-bottom: 4px;
+ }
+ .my-residence p{
+    margin-bottom: 10px;
+ }
+ .my-residence h4{
+    margin-bottom: 10px;
+    text-decoration: underline purple;
+ }
+
+ body{
+     background-color: aliceblue;
+ }
+
+ .one{
+     margin-left: 150px;
+ }

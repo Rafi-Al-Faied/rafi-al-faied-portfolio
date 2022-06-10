@@ -1,0 +1,35 @@
+body img{
+    height: 200px;
+    width: 350px;
+    padding: 20px;
+
+}
+
+
+body p{
+    text-align: left;
+    color: black;
+}
+
+body h6{
+    font-size: 14px;
+    text-align: left;
+    margin-left: 40px;
+    font-weight: 500;
+    color: black;
+    text-decoration: underline;
+
+}
+
+body a{
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+body h3{
+    color: black;
+}
+
+body img:hover {
+    transform: scale(1.2);
+}

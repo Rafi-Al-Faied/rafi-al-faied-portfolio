@@ -1,0 +1,17 @@
+.section-title{
+    text-align: center;
+    text-decoration: underline;
+}
+
+#one h6 ul p{
+    margin-left: 10px;
+}
+#two h6 ul p{
+    margin-left: 200px;
+}
+#three h6 ul p{
+    margin-left: 200px;
+}
+#four h6 ul p{
+    margin-left: 10px;
+}
